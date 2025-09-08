@@ -4,11 +4,11 @@ public class BasketballPlayer {
      * to make sure you understand how to use it,
      * but you do not need to make changes.
      */
-	private String name;
-	private String team;
-	private int totalPoints;
-    private int totalAssists;
-	private int gamesPlayed;
+	String name;
+	String team;
+	int totalPoints;
+    int totalAssists;
+	int gamesPlayed;
 
     public BasketballPlayer(String playerName, String currentTeam) {
 		name = playerName;
@@ -44,4 +44,5 @@ public class BasketballPlayer {
 		return name + " averages " + ((double) totalPoints / gamesPlayed) + " points per game.";
 	}
 }
+
 
